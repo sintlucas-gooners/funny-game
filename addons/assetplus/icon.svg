@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Background -->
+  <rect width="256" height="256" rx="40" fill="#478cbf"/>
+
+  <!-- Grid of asset cards -->
+  <g transform="translate(45, 55)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="50" height="50" rx="8" fill="white" opacity="0.95"/>
+    <rect x="58" y="0" width="50" height="50" rx="8" fill="white" opacity="0.85"/>
+    <rect x="116" y="0" width="50" height="50" rx="8" fill="white" opacity="0.75"/>
+
+    <!-- Row 2 -->
+    <rect x="0" y="58" width="50" height="50" rx="8" fill="white" opacity="0.85"/>
+    <rect x="58" y="58" width="50" height="50" rx="8" fill="white" opacity="0.95"/>
+    <rect x="116" y="58" width="50" height="50" rx="8" fill="white" opacity="0.85"/>
+
+    <!-- Row 3 -->
+    <rect x="0" y="116" width="50" height="50" rx="8" fill="white" opacity="0.75"/>
+    <rect x="58" y="116" width="50" height="50" rx="8" fill="white" opacity="0.85"/>
+    <rect x="116" y="116" width="50" height="50" rx="8" fill="white" opacity="0.95"/>
+
+    <!-- Small icons in cards -->
+    <rect x="12" y="12" width="26" height="18" rx="3" fill="#478cbf" opacity="0.6"/>
+    <rect x="12" y="34" width="20" height="4" rx="1" fill="#478cbf" opacity="0.4"/>
+
+    <rect x="70" y="70" width="26" height="18" rx="3" fill="#478cbf" opacity="0.6"/>
+    <rect x="70" y="92" width="20" height="4" rx="1" fill="#478cbf" opacity="0.4"/>
+  </g>
+
+  <!-- Plus badge -->
+  <g transform="translate(200, 50)">
+    <circle cx="0" cy="0" r="38" fill="#8ecc4a"/>
+    <circle cx="0" cy="0" r="32" fill="#7ec242"/>
+    <rect x="-20" y="-5" width="40" height="10" rx="2" fill="white"/>
+    <rect x="-5" y="-20" width="10" height="40" rx="2" fill="white"/>
+  </g>
+</svg>

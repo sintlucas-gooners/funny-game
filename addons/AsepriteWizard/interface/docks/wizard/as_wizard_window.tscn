@@ -1,0 +1,238 @@
+[gd_scene format=3 uid="uid://c5dwobjd34w3p"]
+
+[ext_resource type="Script" uid="uid://ufmscsnm8ya3" path="res://addons/AsepriteWizard/interface/docks/wizard/as_wizard_window.gd" id="1"]
+
+[sub_resource type="DPITexture" id="DPITexture_brc5y"]
+_source = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\"><path fill=\"#ff5d5d\" d=\"M2 1v8.586l1.293-1.293a1 1 0 0 1 1.414 0L7 10.587l2.293-2.293a1 1 0 0 1 1.414 0L13 10.586l1-1V6H9V1H2zm8 0v4h4zm-6 9.414-2 2V15h12v-2.586l-.293.293a1 1 0 0 1-1.414 0L10 10.414l-2.293 2.293a1 1 0 0 1-1.414 0L4 10.414z\"/></svg>
+"
+
+[node name="ASWizardWindow" type="PanelContainer" unique_id=893384532]
+offset_right = 600.0
+offset_bottom = 600.0
+size_flags_horizontal = 3
+size_flags_vertical = 0
+script = ExtResource("1")
+
+[node name="container" type="MarginContainer" parent="." unique_id=971643873]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="options" type="VBoxContainer" parent="container" unique_id=363679712]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="file_location" type="VBoxContainer" parent="container/options" unique_id=1799879666]
+layout_mode = 2
+
+[node name="file_location_label" type="Label" parent="container/options/file_location" unique_id=233435519]
+layout_mode = 2
+tooltip_text = "Location of the Aseprite *.ase source file"
+mouse_filter = 1
+text = "Aseprite File Location:"
+clip_text = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="container/options/file_location" unique_id=1483152570]
+layout_mode = 2
+
+[node name="file_location_path" type="LineEdit" parent="container/options/file_location/HBoxContainer" unique_id=784571991]
+layout_mode = 2
+size_flags_horizontal = 3
+caret_blink = true
+
+[node name="file_location_btn" type="Button" parent="container/options/file_location/HBoxContainer" unique_id=1326744936]
+layout_mode = 2
+text = "Select"
+
+[node name="layer_section" type="VBoxContainer" parent="container/options" unique_id=1485562984]
+layout_mode = 2
+
+[node name="header" type="HBoxContainer" parent="container/options/layer_section" unique_id=539873199]
+layout_mode = 2
+
+[node name="section_header" type="Button" parent="container/options/layer_section/header" unique_id=2067803777]
+layout_mode = 2
+text = "Layers"
+icon = SubResource("DPITexture_brc5y")
+flat = true
+alignment = 0
+
+[node name="HSeparator" type="HSeparator" parent="container/options/layer_section/header" unique_id=1420796189]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="section_content" type="MarginContainer" parent="container/options/layer_section" unique_id=1776613499]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+
+[node name="items" type="VBoxContainer" parent="container/options/layer_section/section_content" unique_id=1736081453]
+layout_mode = 2
+
+[node name="exclude_pattern" type="VBoxContainer" parent="container/options/layer_section/section_content/items" unique_id=129973437]
+layout_mode = 2
+
+[node name="label" type="Label" parent="container/options/layer_section/section_content/items/exclude_pattern" unique_id=1785211013]
+layout_mode = 2
+tooltip_text = "If layer name matches this pattern, it won't be exported."
+mouse_filter = 1
+text = "Exclude layers with name matching pattern:"
+
+[node name="pattern" type="LineEdit" parent="container/options/layer_section/section_content/items/exclude_pattern" unique_id=1193188887]
+layout_mode = 2
+caret_blink = true
+
+[node name="split_layers" type="HBoxContainer" parent="container/options/layer_section/section_content/items" unique_id=439202094]
+layout_mode = 2
+
+[node name="field" type="CheckBox" parent="container/options/layer_section/section_content/items/split_layers" unique_id=710274476]
+layout_mode = 2
+tooltip_text = "If selected, one resource will be created for each layer.
+If not selected, layers will be merged and exported as one SpriteSheet."
+text = "Split layers in multiple resources"
+
+[node name="visible_layers" type="HBoxContainer" parent="container/options/layer_section/section_content/items" unique_id=888083417]
+layout_mode = 2
+
+[node name="field" type="CheckBox" parent="container/options/layer_section/section_content/items/visible_layers" unique_id=1835821114]
+layout_mode = 2
+tooltip_text = "If selected, layers not visible in the source file won't be included in the final image."
+text = "Only include visible layers"
+
+[node name="animation_section" type="VBoxContainer" parent="container/options" unique_id=1300683337]
+layout_mode = 2
+
+[node name="header" type="HBoxContainer" parent="container/options/animation_section" unique_id=535518881]
+layout_mode = 2
+
+[node name="section_header" type="Button" parent="container/options/animation_section/header" unique_id=618139012]
+layout_mode = 2
+text = "Animation"
+icon = SubResource("DPITexture_brc5y")
+flat = true
+alignment = 0
+
+[node name="section_content" type="MarginContainer" parent="container/options/animation_section" unique_id=2043484530]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+
+[node name="items" type="VBoxContainer" parent="container/options/animation_section/section_content" unique_id=651710502]
+layout_mode = 2
+
+[node name="round_fps" type="HBoxContainer" parent="container/options/animation_section/section_content/items" unique_id=569327253]
+layout_mode = 2
+
+[node name="field" type="CheckBox" parent="container/options/animation_section/section_content/items/round_fps" unique_id=212503919]
+layout_mode = 2
+tooltip_text = "If selected, rounds FPS to next integer"
+button_pressed = true
+text = "Round FPS"
+
+[node name="output_section" type="VBoxContainer" parent="container/options" unique_id=771443751]
+layout_mode = 2
+
+[node name="header" type="HBoxContainer" parent="container/options/output_section" unique_id=2122863410]
+layout_mode = 2
+
+[node name="section_header" type="Button" parent="container/options/output_section/header" unique_id=1590853588]
+layout_mode = 2
+text = "Output"
+icon = SubResource("DPITexture_brc5y")
+flat = true
+alignment = 0
+
+[node name="HSeparator" type="HSeparator" parent="container/options/output_section/header" unique_id=328645967]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="section_content" type="MarginContainer" parent="container/options/output_section" unique_id=1657878134]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+
+[node name="items" type="VBoxContainer" parent="container/options/output_section/section_content" unique_id=693079131]
+layout_mode = 2
+
+[node name="output_folder" type="VBoxContainer" parent="container/options/output_section/section_content/items" unique_id=1389897479]
+layout_mode = 2
+
+[node name="label" type="Label" parent="container/options/output_section/section_content/items/output_folder" unique_id=905359056]
+layout_mode = 2
+tooltip_text = "Folder where the SpriteSheet resource is going to be saved"
+mouse_filter = 1
+text = "Output Folder:"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="container/options/output_section/section_content/items/output_folder" unique_id=2080888703]
+layout_mode = 2
+
+[node name="file_location_path" type="LineEdit" parent="container/options/output_section/section_content/items/output_folder/HBoxContainer" unique_id=1592675939]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "res://"
+caret_blink = true
+
+[node name="output_folder_btn" type="Button" parent="container/options/output_section/section_content/items/output_folder/HBoxContainer" unique_id=667482541]
+layout_mode = 2
+text = "Select"
+
+[node name="custom_filename" type="VBoxContainer" parent="container/options/output_section/section_content/items" unique_id=155962789]
+layout_mode = 2
+
+[node name="label" type="Label" parent="container/options/output_section/section_content/items/custom_filename" unique_id=1997944715]
+layout_mode = 2
+tooltip_text = "Output filename. In case layers are not being merged, this is used as file prefix.
+If not set, source filename is used."
+mouse_filter = 1
+text = "Output File Name / Prefix:"
+
+[node name="pattern" type="LineEdit" parent="container/options/output_section/section_content/items/custom_filename" unique_id=1995391897]
+layout_mode = 2
+caret_blink = true
+
+[node name="scale" type="HBoxContainer" parent="container/options/output_section/section_content/items" unique_id=1944187769]
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="Label" type="Label" parent="container/options/output_section/section_content/items/scale" unique_id=1540699084]
+layout_mode = 2
+text = "Scale"
+
+[node name="SpinBox" type="SpinBox" parent="container/options/output_section/section_content/items/scale" unique_id=1138291482]
+layout_mode = 2
+min_value = 1.0
+value = 1.0
+rounded = true
+allow_greater = true
+
+[node name="disable_resource_creation" type="HBoxContainer" parent="container/options/output_section/section_content/items" unique_id=797221248]
+layout_mode = 2
+
+[node name="field" type="CheckBox" parent="container/options/output_section/section_content/items/disable_resource_creation" unique_id=245880388]
+layout_mode = 2
+tooltip_text = "Does not create SpriteFrames resource. Useful if you are only interested in the .json and .png output from Aseprite."
+text = "Do not create resource file"
+
+[node name="buttons" type="HBoxContainer" parent="container/options" unique_id=1895190204]
+layout_mode = 2
+alignment = 2
+
+[node name="close" type="Button" parent="container/options/buttons" unique_id=724147973]
+layout_mode = 2
+text = "Close"
+
+[node name="clear" type="Button" parent="container/options/buttons" unique_id=1658088898]
+layout_mode = 2
+text = "Clear"
+
+[node name="next" type="Button" parent="container/options/buttons" unique_id=171871713]
+layout_mode = 2
+text = "Import"
+
+[connection signal="button_up" from="container/options/file_location/HBoxContainer/file_location_btn" to="." method="_open_aseprite_file_selection_dialog"]
+[connection signal="button_down" from="container/options/layer_section/header/section_header" to="." method="_on_layer_section_header_button_down"]
+[connection signal="button_down" from="container/options/animation_section/header/section_header" to="." method="_on_animation_header_button_down"]
+[connection signal="button_down" from="container/options/output_section/header/section_header" to="." method="_on_output_section_header_button_down"]
+[connection signal="button_up" from="container/options/output_section/section_content/items/output_folder/HBoxContainer/output_folder_btn" to="." method="_open_output_folder_selection_dialog"]
+[connection signal="button_up" from="container/options/buttons/close" to="." method="_on_close_btn_up"]
+[connection signal="button_up" from="container/options/buttons/clear" to="." method="_on_clear_button_up"]
+[connection signal="button_up" from="container/options/buttons/next" to="." method="_on_next_btn_up"]

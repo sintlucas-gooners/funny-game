@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+  <!-- Grid 3x3 like original -->
+  <rect x="0" y="0" width="4" height="4" rx="0.5" fill="#e0e0e0"/>
+  <rect x="5" y="0" width="4" height="4" rx="0.5" fill="#c8c8c8"/>
+  <rect x="10" y="0" width="4" height="4" rx="0.5" fill="#b0b0b0"/>
+
+  <rect x="0" y="5" width="4" height="4" rx="0.5" fill="#c8c8c8"/>
+  <rect x="5" y="5" width="4" height="4" rx="0.5" fill="#e0e0e0"/>
+  <rect x="10" y="5" width="4" height="4" rx="0.5" fill="#c8c8c8"/>
+
+  <rect x="0" y="10" width="4" height="4" rx="0.5" fill="#b0b0b0"/>
+  <rect x="5" y="10" width="4" height="4" rx="0.5" fill="#c8c8c8"/>
+  <rect x="10" y="10" width="4" height="4" rx="0.5" fill="#e0e0e0"/>
+
+  <!-- Plus badge top right -->
+  <circle cx="13" cy="3" r="3" fill="#808080"/>
+  <rect x="11.5" y="2.5" width="3" height="1" fill="white"/>
+  <rect x="12.5" y="1.5" width="1" height="3" fill="white"/>
+</svg>

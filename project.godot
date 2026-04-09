@@ -8,14 +8,30 @@
 
 config_version=5
 
+[addons]
+
+ss2d/version="3.3.1"
+
 [application]
 
-config/name="very cool mysterious game concept"
+config/name="rpg | NDG"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+PhantomCameraManager="*uid://duq6jhf6unyis"
+DialogueManager="*uid://c3rodes2l3gxb"
+DebugMenu="*uid://cggqb75a8w8r"
+BetterTerrain="*uid://b4hr7msvemgpa"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/AsepriteWizard/plugin.cfg", "res://addons/YouCanDoIt/plugin.cfg", "res://addons/assetplus/plugin.cfg", "res://addons/better-terrain/plugin.cfg", "res://addons/debug_menu/plugin.cfg", "res://addons/dialogue_manager/plugin.cfg", "res://addons/fancy_folder_icons/plugin.cfg", "res://addons/gdLinter/plugin.cfg", "res://addons/gdgdtoolkit/plugin.cfg", "res://addons/godotresourcecleaner/plugin.cfg", "res://addons/godotsteam/plugin.cfg", "res://addons/gut/plugin.cfg", "res://addons/nklbdev.importality/plugin.cfg", "res://addons/phantom_camera/plugin.cfg", "res://addons/rmsmartshape/plugin.cfg", "res://addons/script-ide/plugin.cfg", "res://addons/virtual_joystick/plugin.cfg", "res://addons/your_buil/plugin.cfg")
+
 [physics]
 
+2d/physics_engine="Rapier2D"
 3d/physics_engine="Jolt Physics"
 
 [rendering]
@@ -23,3 +39,10 @@ config/icon="res://icon.svg"
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+
+[steam]
+
+initialization/app_id=0
+initialization/initialize_on_startup=false
+initialization/embed_callbacks=false
+multiplayer_peer/max_channels=4

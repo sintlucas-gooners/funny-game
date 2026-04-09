@@ -1,0 +1,158 @@
+[gd_scene format=3 uid="uid://dnlk2yep7teea"]
+
+[ext_resource type="Script" uid="uid://drq8003ny6g6k" path="res://addons/AsepriteWizard/interface/imports_manager/tree_selection_single_item.gd" id="1_bb3ui"]
+[ext_resource type="PackedScene" uid="uid://c1l0bk12iwln3" path="res://addons/AsepriteWizard/interface/shared/tree/inline_warning_panel.tscn" id="2_weuqf"]
+
+[node name="single_item" type="VBoxContainer" unique_id=404285651]
+visible = false
+script = ExtResource("1_bb3ui")
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=798890125]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/h_separation = 10
+columns = 2
+
+[node name="type_label" type="Label" parent="GridContainer" unique_id=281763220]
+layout_mode = 2
+size_flags_vertical = 0
+text = "Type"
+
+[node name="type_value" type="Label" parent="GridContainer" unique_id=598797670]
+layout_mode = 2
+text = "-"
+
+[node name="name_label" type="Label" parent="GridContainer" unique_id=1875732100]
+layout_mode = 2
+size_flags_vertical = 0
+text = "Name"
+
+[node name="name_value" type="Label" parent="GridContainer" unique_id=40676271]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "-"
+autowrap_mode = 2
+
+[node name="path_label" type="Label" parent="GridContainer" unique_id=219671160]
+layout_mode = 2
+size_flags_vertical = 0
+text = "Path"
+
+[node name="path_value" type="Label" parent="GridContainer" unique_id=990096461]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "-"
+autowrap_mode = 1
+
+[node name="HSeparator" type="HSeparator" parent="GridContainer" unique_id=683529791]
+layout_mode = 2
+
+[node name="HSeparator2" type="HSeparator" parent="GridContainer" unique_id=1878444277]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="source_file_label" type="Label" parent="GridContainer" unique_id=1806857183]
+layout_mode = 2
+size_flags_vertical = 0
+text = "Aseprite File"
+
+[node name="source_file_value" type="Label" parent="GridContainer" unique_id=843197238]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "-"
+autowrap_mode = 1
+
+[node name="layer_label" type="Label" parent="GridContainer" unique_id=1468452370]
+layout_mode = 2
+size_flags_vertical = 0
+text = "Layer"
+
+[node name="layer_value" type="Label" parent="GridContainer" unique_id=148525277]
+layout_mode = 2
+text = "-"
+
+[node name="slice_label" type="Label" parent="GridContainer" unique_id=1818000796]
+layout_mode = 2
+size_flags_vertical = 0
+text = "Slice"
+
+[node name="slice_value" type="Label" parent="GridContainer" unique_id=929080490]
+layout_mode = 2
+text = "-"
+
+[node name="o_folder_label" type="Label" parent="GridContainer" unique_id=1106145059]
+visible = false
+layout_mode = 2
+size_flags_vertical = 0
+text = "Output folder"
+
+[node name="o_folder_value" type="Label" parent="GridContainer" unique_id=873149191]
+visible = false
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "-"
+
+[node name="o_name_label" type="Label" parent="GridContainer" unique_id=128123050]
+layout_mode = 2
+size_flags_vertical = 0
+text = "Spritesheet name"
+
+[node name="o_name_value" type="Label" parent="GridContainer" unique_id=1765632368]
+layout_mode = 2
+text = "-"
+
+[node name="source_changed_warning" parent="." unique_id=1266337541 instance=ExtResource("2_weuqf")]
+layout_mode = 2
+
+[node name="resource_buttons" type="HFlowContainer" parent="." unique_id=210298698]
+visible = false
+layout_mode = 2
+
+[node name="import" type="Button" parent="resource_buttons" unique_id=504867748]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Re-Import"
+
+[node name="open_scene" type="Button" parent="resource_buttons" unique_id=1306221130]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Open Scene"
+
+[node name="scene_buttons" type="HFlowContainer" parent="." unique_id=2009092227]
+visible = false
+layout_mode = 2
+
+[node name="import_all" type="Button" parent="scene_buttons" unique_id=514349732]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Re-Import all"
+
+[node name="open_scene" type="Button" parent="scene_buttons" unique_id=189163048]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Open Scene"
+
+[node name="dir_buttons" type="HFlowContainer" parent="." unique_id=582289319]
+visible = false
+layout_mode = 2
+
+[node name="import_all" type="Button" parent="dir_buttons" unique_id=741495035]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Re-Import all"
+
+[node name="show_dir_in_fs" type="Button" parent="dir_buttons" unique_id=75943775]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Show In FileSystem"
+
+[connection signal="button_up" from="resource_buttons/import" to="." method="_on_import_button_up"]
+[connection signal="button_up" from="resource_buttons/open_scene" to="." method="_on_open_scene_button_up"]
+[connection signal="button_up" from="scene_buttons/import_all" to="." method="_on_import_all_button_up"]
+[connection signal="button_up" from="scene_buttons/open_scene" to="." method="_on_open_scene_button_up"]
+[connection signal="button_up" from="dir_buttons/import_all" to="." method="_on_import_all_button_up"]
+[connection signal="button_up" from="dir_buttons/show_dir_in_fs" to="." method="_on_show_dir_in_fs_button_up"]
