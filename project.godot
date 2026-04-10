@@ -15,6 +15,7 @@ ss2d/version="3.3.1"
 [application]
 
 config/name="rpg | NDG"
+config/description="Dean, Nick, and Chiel very cool game"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -24,6 +25,13 @@ PhantomCameraManager="*uid://duq6jhf6unyis"
 DialogueManager="*uid://c3rodes2l3gxb"
 DebugMenu="*uid://cggqb75a8w8r"
 BetterTerrain="*uid://b4hr7msvemgpa"
+
+[debug]
+
+gdscript/warnings/unsafe_property_access=1
+gdscript/warnings/unsafe_method_access=1
+gdscript/warnings/unsafe_cast=1
+gdscript/warnings/unsafe_call_argument=1
 
 [editor_plugins]
 
