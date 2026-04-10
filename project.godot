@@ -16,6 +16,7 @@ ss2d/version="3.3.1"
 
 config/name="rpg | NDG"
 config/description="Dean, Nick, and Chiel very cool game"
+run/main_scene="uid://bnwmdamij3ce4"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -28,6 +29,8 @@ BetterTerrain="*uid://b4hr7msvemgpa"
 
 [debug]
 
+gdscript/warnings/untyped_declaration=1
+gdscript/warnings/inferred_declaration=1
 gdscript/warnings/unsafe_property_access=1
 gdscript/warnings/unsafe_method_access=1
 gdscript/warnings/unsafe_cast=1
