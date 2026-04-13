@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjuvyhhtnq2rl"
 path.s3tc="res://.godot/imported/KuboNagisa Java.png-3504a1d7b1f1632d95af298f82456314.s3tc.ctex"
+path.etc2="res://.godot/imported/KuboNagisa Java.png-3504a1d7b1f1632d95af298f82456314.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/Girls/Nice/KuboNagisa Java.png"
-dest_files=["res://.godot/imported/KuboNagisa Java.png-3504a1d7b1f1632d95af298f82456314.s3tc.ctex"]
+dest_files=["res://.godot/imported/KuboNagisa Java.png-3504a1d7b1f1632d95af298f82456314.s3tc.ctex", "res://.godot/imported/KuboNagisa Java.png-3504a1d7b1f1632d95af298f82456314.etc2.ctex"]
 
 [params]
 

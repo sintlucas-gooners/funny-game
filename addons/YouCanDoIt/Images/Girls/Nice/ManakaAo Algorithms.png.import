@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfiuc7rnsrb7j"
 path.s3tc="res://.godot/imported/ManakaAo Algorithms.png-c37e944f5d0431a6020f895471cb544d.s3tc.ctex"
+path.etc2="res://.godot/imported/ManakaAo Algorithms.png-c37e944f5d0431a6020f895471cb544d.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/Girls/Nice/ManakaAo Algorithms.png"
-dest_files=["res://.godot/imported/ManakaAo Algorithms.png-c37e944f5d0431a6020f895471cb544d.s3tc.ctex"]
+dest_files=["res://.godot/imported/ManakaAo Algorithms.png-c37e944f5d0431a6020f895471cb544d.s3tc.ctex", "res://.godot/imported/ManakaAo Algorithms.png-c37e944f5d0431a6020f895471cb544d.etc2.ctex"]
 
 [params]
 

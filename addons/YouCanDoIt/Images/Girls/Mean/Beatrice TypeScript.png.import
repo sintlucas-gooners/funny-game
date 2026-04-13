@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ccsw3bpnspmh7"
 path.s3tc="res://.godot/imported/Beatrice TypeScript.png-1f169cc425ae3283c568ce1a6a595f47.s3tc.ctex"
+path.etc2="res://.godot/imported/Beatrice TypeScript.png-1f169cc425ae3283c568ce1a6a595f47.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/Girls/Mean/Beatrice TypeScript.png"
-dest_files=["res://.godot/imported/Beatrice TypeScript.png-1f169cc425ae3283c568ce1a6a595f47.s3tc.ctex"]
+dest_files=["res://.godot/imported/Beatrice TypeScript.png-1f169cc425ae3283c568ce1a6a595f47.s3tc.ctex", "res://.godot/imported/Beatrice TypeScript.png-1f169cc425ae3283c568ce1a6a595f47.etc2.ctex"]
 
 [params]
 

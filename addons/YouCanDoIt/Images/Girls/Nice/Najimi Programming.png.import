@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1eksri8dia7n"
 path.s3tc="res://.godot/imported/Najimi Programming.png-0135f76624b20f920c3229256dbaa7a2.s3tc.ctex"
+path.etc2="res://.godot/imported/Najimi Programming.png-0135f76624b20f920c3229256dbaa7a2.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/Girls/Nice/Najimi Programming.png"
-dest_files=["res://.godot/imported/Najimi Programming.png-0135f76624b20f920c3229256dbaa7a2.s3tc.ctex"]
+dest_files=["res://.godot/imported/Najimi Programming.png-0135f76624b20f920c3229256dbaa7a2.s3tc.ctex", "res://.godot/imported/Najimi Programming.png-0135f76624b20f920c3229256dbaa7a2.etc2.ctex"]
 
 [params]
 

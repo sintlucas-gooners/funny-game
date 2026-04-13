@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://pewi8kcn2opf"
 path.s3tc="res://.godot/imported/SuzukaNagami C.png-e26e988e98dfd2851bc8ae31b3a702d2.s3tc.ctex"
+path.etc2="res://.godot/imported/SuzukaNagami C.png-e26e988e98dfd2851bc8ae31b3a702d2.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/Girls/Nice/SuzukaNagami C.png"
-dest_files=["res://.godot/imported/SuzukaNagami C.png-e26e988e98dfd2851bc8ae31b3a702d2.s3tc.ctex"]
+dest_files=["res://.godot/imported/SuzukaNagami C.png-e26e988e98dfd2851bc8ae31b3a702d2.s3tc.ctex", "res://.godot/imported/SuzukaNagami C.png-e26e988e98dfd2851bc8ae31b3a702d2.etc2.ctex"]
 
 [params]
 

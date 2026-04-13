@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwfggdl5lrmrw"
 path.s3tc="res://.godot/imported/Yunyun C.png-ad1d1bb3b5521731143d201ad730e28c.s3tc.ctex"
+path.etc2="res://.godot/imported/Yunyun C.png-ad1d1bb3b5521731143d201ad730e28c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/Girls/Nice/Yunyun C.png"
-dest_files=["res://.godot/imported/Yunyun C.png-ad1d1bb3b5521731143d201ad730e28c.s3tc.ctex"]
+dest_files=["res://.godot/imported/Yunyun C.png-ad1d1bb3b5521731143d201ad730e28c.s3tc.ctex", "res://.godot/imported/Yunyun C.png-ad1d1bb3b5521731143d201ad730e28c.etc2.ctex"]
 
 [params]
 

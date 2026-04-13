@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://darro1w4k0cbo"
 path.s3tc="res://.godot/imported/Alya SQL.png-e7a9657f7c17284a54d0560262067ee4.s3tc.ctex"
+path.etc2="res://.godot/imported/Alya SQL.png-e7a9657f7c17284a54d0560262067ee4.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/Girls/Mean/Alya SQL.png"
-dest_files=["res://.godot/imported/Alya SQL.png-e7a9657f7c17284a54d0560262067ee4.s3tc.ctex"]
+dest_files=["res://.godot/imported/Alya SQL.png-e7a9657f7c17284a54d0560262067ee4.s3tc.ctex", "res://.godot/imported/Alya SQL.png-e7a9657f7c17284a54d0560262067ee4.etc2.ctex"]
 
 [params]
 

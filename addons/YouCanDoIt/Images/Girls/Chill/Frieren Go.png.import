@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://duufxfbb54sjs"
 path.s3tc="res://.godot/imported/Frieren Go.png-e0446cb90a8358945647f7d9ef1de488.s3tc.ctex"
+path.etc2="res://.godot/imported/Frieren Go.png-e0446cb90a8358945647f7d9ef1de488.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/Girls/Chill/Frieren Go.png"
-dest_files=["res://.godot/imported/Frieren Go.png-e0446cb90a8358945647f7d9ef1de488.s3tc.ctex"]
+dest_files=["res://.godot/imported/Frieren Go.png-e0446cb90a8358945647f7d9ef1de488.s3tc.ctex", "res://.godot/imported/Frieren Go.png-e0446cb90a8358945647f7d9ef1de488.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://otd24bqeabkc"
 path.s3tc="res://.godot/imported/Akira A++.png-e7e73d8e668e3388b816ebb88528e4ec.s3tc.ctex"
+path.etc2="res://.godot/imported/Akira A++.png-e7e73d8e668e3388b816ebb88528e4ec.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/Girls/Nice/Akira A++.png"
-dest_files=["res://.godot/imported/Akira A++.png-e7e73d8e668e3388b816ebb88528e4ec.s3tc.ctex"]
+dest_files=["res://.godot/imported/Akira A++.png-e7e73d8e668e3388b816ebb88528e4ec.s3tc.ctex", "res://.godot/imported/Akira A++.png-e7e73d8e668e3388b816ebb88528e4ec.etc2.ctex"]
 
 [params]
 
