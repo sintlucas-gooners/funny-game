@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://jcosjdlcnyyr"
 path.s3tc="res://.godot/imported/NagatoYuki Elm.png-00e8b4b29716ffba789a001c5503b83a.s3tc.ctex"
+path.etc2="res://.godot/imported/NagatoYuki Elm.png-00e8b4b29716ffba789a001c5503b83a.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/Girls/Chill/NagatoYuki Elm.png"
-dest_files=["res://.godot/imported/NagatoYuki Elm.png-00e8b4b29716ffba789a001c5503b83a.s3tc.ctex"]
+dest_files=["res://.godot/imported/NagatoYuki Elm.png-00e8b4b29716ffba789a001c5503b83a.s3tc.ctex", "res://.godot/imported/NagatoYuki Elm.png-00e8b4b29716ffba789a001c5503b83a.etc2.ctex"]
 
 [params]
 

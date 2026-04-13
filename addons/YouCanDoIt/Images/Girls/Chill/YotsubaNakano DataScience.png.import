@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8gyihey36fqb"
 path.s3tc="res://.godot/imported/YotsubaNakano DataScience.png-634e2fb074d659e406c56516d554c397.s3tc.ctex"
+path.etc2="res://.godot/imported/YotsubaNakano DataScience.png-634e2fb074d659e406c56516d554c397.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/Girls/Chill/YotsubaNakano DataScience.png"
-dest_files=["res://.godot/imported/YotsubaNakano DataScience.png-634e2fb074d659e406c56516d554c397.s3tc.ctex"]
+dest_files=["res://.godot/imported/YotsubaNakano DataScience.png-634e2fb074d659e406c56516d554c397.s3tc.ctex", "res://.godot/imported/YotsubaNakano DataScience.png-634e2fb074d659e406c56516d554c397.etc2.ctex"]
 
 [params]
 

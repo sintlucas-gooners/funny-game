@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://d012kqkfmq7dd"
 path.s3tc="res://.godot/imported/YuniShingyouji Kotlin.png-193050a5151279f1013e35dc354d15c4.s3tc.ctex"
+path.etc2="res://.godot/imported/YuniShingyouji Kotlin.png-193050a5151279f1013e35dc354d15c4.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/Girls/Chill/YuniShingyouji Kotlin.png"
-dest_files=["res://.godot/imported/YuniShingyouji Kotlin.png-193050a5151279f1013e35dc354d15c4.s3tc.ctex"]
+dest_files=["res://.godot/imported/YuniShingyouji Kotlin.png-193050a5151279f1013e35dc354d15c4.s3tc.ctex", "res://.godot/imported/YuniShingyouji Kotlin.png-193050a5151279f1013e35dc354d15c4.etc2.ctex"]
 
 [params]
 

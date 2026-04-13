@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfpgflkmcjdag"
 path.s3tc="res://.godot/imported/AoiInuyama Kotlin.png-e88fe82f504eb0e7617e5c53383a2b45.s3tc.ctex"
+path.etc2="res://.godot/imported/AoiInuyama Kotlin.png-e88fe82f504eb0e7617e5c53383a2b45.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/Girls/Nice/AoiInuyama Kotlin.png"
-dest_files=["res://.godot/imported/AoiInuyama Kotlin.png-e88fe82f504eb0e7617e5c53383a2b45.s3tc.ctex"]
+dest_files=["res://.godot/imported/AoiInuyama Kotlin.png-e88fe82f504eb0e7617e5c53383a2b45.s3tc.ctex", "res://.godot/imported/AoiInuyama Kotlin.png-e88fe82f504eb0e7617e5c53383a2b45.etc2.ctex"]
 
 [params]
 

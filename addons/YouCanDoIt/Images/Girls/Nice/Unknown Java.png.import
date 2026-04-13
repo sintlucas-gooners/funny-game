@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://6fbdnagbgm6a"
 path.s3tc="res://.godot/imported/Unknown Java.png-fd70266c8d62729ca4a87a9063aa4282.s3tc.ctex"
+path.etc2="res://.godot/imported/Unknown Java.png-fd70266c8d62729ca4a87a9063aa4282.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/Girls/Nice/Unknown Java.png"
-dest_files=["res://.godot/imported/Unknown Java.png-fd70266c8d62729ca4a87a9063aa4282.s3tc.ctex"]
+dest_files=["res://.godot/imported/Unknown Java.png-fd70266c8d62729ca4a87a9063aa4282.s3tc.ctex", "res://.godot/imported/Unknown Java.png-fd70266c8d62729ca4a87a9063aa4282.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfemikasjimu4"
 path.s3tc="res://.godot/imported/Frieren Rust 2.png-7989d5ab508d3c4095eccae6fba262e6.s3tc.ctex"
+path.etc2="res://.godot/imported/Frieren Rust 2.png-7989d5ab508d3c4095eccae6fba262e6.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/Girls/Chill/Frieren Rust 2.png"
-dest_files=["res://.godot/imported/Frieren Rust 2.png-7989d5ab508d3c4095eccae6fba262e6.s3tc.ctex"]
+dest_files=["res://.godot/imported/Frieren Rust 2.png-7989d5ab508d3c4095eccae6fba262e6.s3tc.ctex", "res://.godot/imported/Frieren Rust 2.png-7989d5ab508d3c4095eccae6fba262e6.etc2.ctex"]
 
 [params]
 

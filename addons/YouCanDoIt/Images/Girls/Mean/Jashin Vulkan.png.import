@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://vv60v7qkv04x"
 path.s3tc="res://.godot/imported/Jashin Vulkan.png-0b63a2e5f8779ccf2ebaea957ee9016e.s3tc.ctex"
+path.etc2="res://.godot/imported/Jashin Vulkan.png-0b63a2e5f8779ccf2ebaea957ee9016e.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/Girls/Mean/Jashin Vulkan.png"
-dest_files=["res://.godot/imported/Jashin Vulkan.png-0b63a2e5f8779ccf2ebaea957ee9016e.s3tc.ctex"]
+dest_files=["res://.godot/imported/Jashin Vulkan.png-0b63a2e5f8779ccf2ebaea957ee9016e.s3tc.ctex", "res://.godot/imported/Jashin Vulkan.png-0b63a2e5f8779ccf2ebaea957ee9016e.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://0ywsf0c20euc"
 path.s3tc="res://.godot/imported/LizaHelesta MATLAB.png-2f3750c93df222a91577d0c321876180.s3tc.ctex"
+path.etc2="res://.godot/imported/LizaHelesta MATLAB.png-2f3750c93df222a91577d0c321876180.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/Girls/Chill/LizaHelesta MATLAB.png"
-dest_files=["res://.godot/imported/LizaHelesta MATLAB.png-2f3750c93df222a91577d0c321876180.s3tc.ctex"]
+dest_files=["res://.godot/imported/LizaHelesta MATLAB.png-2f3750c93df222a91577d0c321876180.s3tc.ctex", "res://.godot/imported/LizaHelesta MATLAB.png-2f3750c93df222a91577d0c321876180.etc2.ctex"]
 
 [params]
 

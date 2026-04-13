@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bir8x1daio6qs"
 path.bptc="res://.godot/imported/SpeechBubble.svg-f0342268756309708970a82803dd1996.bptc.ctex"
+path.astc="res://.godot/imported/SpeechBubble.svg-f0342268756309708970a82803dd1996.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/YouCanDoIt/Images/SpeechBubble.svg"
-dest_files=["res://.godot/imported/SpeechBubble.svg-f0342268756309708970a82803dd1996.bptc.ctex"]
+dest_files=["res://.godot/imported/SpeechBubble.svg-f0342268756309708970a82803dd1996.bptc.ctex", "res://.godot/imported/SpeechBubble.svg-f0342268756309708970a82803dd1996.astc.ctex"]
 
 [params]
 
