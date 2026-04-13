@@ -1,0 +1,106 @@
+[gd_scene format=3 uid="uid://butfb5lyldnkr"]
+
+[ext_resource type="Script" uid="uid://bfidvoh4b8nsk" path="res://examples/your_buil/example.gd" id="1_0ice6"]
+
+[node name="Example" type="Panel" unique_id=1428019350]
+custom_minimum_size = Vector2(560, 400)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -280.0
+offset_top = -200.0
+offset_right = 280.0
+offset_bottom = 200.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0ice6")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=2056305697]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Title" type="Label" parent="VBoxContainer" unique_id=81267759]
+layout_mode = 2
+text = "your buil"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer" unique_id=910005111]
+custom_minimum_size = Vector2(540, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Titles" type="VBoxContainer" parent="VBoxContainer/HBoxContainer" unique_id=1250241815]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="Title1" type="Label" parent="VBoxContainer/HBoxContainer/Titles" unique_id=1350455366]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+text = "git branch"
+
+[node name="Title2" type="Label" parent="VBoxContainer/HBoxContainer/Titles" unique_id=2051073034]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+text = "git commit count"
+
+[node name="Title3" type="Label" parent="VBoxContainer/HBoxContainer/Titles" unique_id=1329146045]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+text = "git commit hash"
+
+[node name="Title4" type="Label" parent="VBoxContainer/HBoxContainer/Titles" unique_id=606962101]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+text = "git tag"
+
+[node name="Title5" type="Label" parent="VBoxContainer/HBoxContainer/Titles" unique_id=1238078812]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+text = "date"
+
+[node name="Title6" type="Label" parent="VBoxContainer/HBoxContainer/Titles" unique_id=325469435]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+text = "time"
+
+[node name="Data" type="VBoxContainer" parent="VBoxContainer/HBoxContainer" unique_id=776013502]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="GitBranch" type="Label" parent="VBoxContainer/HBoxContainer/Data" unique_id=348444349]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+
+[node name="GitCommitCount" type="Label" parent="VBoxContainer/HBoxContainer/Data" unique_id=1195303864]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+
+[node name="GitCommitHash" type="Label" parent="VBoxContainer/HBoxContainer/Data" unique_id=2130558011]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+autowrap_mode = 1
+
+[node name="GitTag" type="Label" parent="VBoxContainer/HBoxContainer/Data" unique_id=548985034]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+
+[node name="Date" type="Label" parent="VBoxContainer/HBoxContainer/Data" unique_id=1885709473]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+
+[node name="Time" type="Label" parent="VBoxContainer/HBoxContainer/Data" unique_id=1880629165]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2

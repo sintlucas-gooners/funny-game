@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bnwmdamij3ce4"]
+
+[ext_resource type="Script" uid="uid://cwwbqct805sdi" path="res://Assets/main_scene.gd" id="1_4n0fn"]
+[ext_resource type="PackedScene" uid="uid://uqnuhcrw12d0" path="res://Assets/main_character.tscn" id="2_7g3yx"]
+
+[node name="main scene" type="Node2D" unique_id=70873681]
+script = ExtResource("1_4n0fn")
+
+[node name="Parallax2D" type="Parallax2D" parent="." unique_id=926892210]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=251478292]
+
+[node name="main character" parent="." unique_id=621235887 instance=ExtResource("2_7g3yx")]
+position = Vector2(280, 291)

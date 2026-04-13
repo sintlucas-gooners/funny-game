@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://uqnuhcrw12d0"]
+
+[ext_resource type="Script" uid="uid://ci67pm7335ijj" path="res://Assets/rapier_character_body_2d.gd" id="1_af0p7"]
+[ext_resource type="Texture2D" uid="uid://cgtxjidxo7y8u" path="res://nigger chiel folder/piemol.png" id="2_j26dl"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_vtqb1"]
+
+[node name="main character" type="Node2D" unique_id=621235887]
+
+[node name="RapierCharacterBody2D" type="CharacterBody2D" parent="." unique_id=565934814]
+script = ExtResource("1_af0p7")
+metadata/_custom_type_script = "uid://c5qpdmvd63ugb"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RapierCharacterBody2D" unique_id=907190697]
+shape = SubResource("CapsuleShape2D_vtqb1")
+
+[node name="Piemol" type="Sprite2D" parent="RapierCharacterBody2D" unique_id=831195495]
+texture = ExtResource("2_j26dl")
